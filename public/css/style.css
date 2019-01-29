@@ -7,7 +7,7 @@
 }
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *	Edit this section
 *
 * ======================================================= */
@@ -385,7 +385,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   right: 0;
   z-index: 2;
-  opacity: .9;
+  opacity: .4;
   -webkit-backface-visibility: hidden;
   background-color: #52d3aa;
   /* IE9, iOS 3.2+ */
@@ -438,11 +438,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .slant {
   position: absolute;
-  transform: rotate(-1.7deg);
+  /* transform: rotate(-1.7deg);
   -ms-transform: rotate(-1.7deg);
   -webkit-transform: rotate(-1.7deg);
   -o-transform: rotate(-1.7deg);
-  -moz-transform: rotate(-1.7deg);
+  -moz-transform: rotate(-1.7deg); */
   background-color: #fff;
   content: "";
   z-index: 3;
