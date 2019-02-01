@@ -25,9 +25,9 @@ body {
 
 a {
   color: #52d3aa;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: 0.1s;
+  -o-transition: 0.1s;
+  transition: 0.1s;
 }
 a:hover, a:active, a:focus {
   color: #52d3aa;
@@ -218,9 +218,9 @@ h1, h2, h3, h4, h5, h6 {
   }
   #fh5co-header #navbar li a {
     color: rgba(0, 0, 0, 0.5) !important;
-    -webkit-transition: 0.3s;
-    -o-transition: 0.3s;
-    transition: 0.3s;
+    -webkit-transition: 0.1s;
+    -o-transition: 0.1s;
+    transition: 0.1s;
   }
   #fh5co-header #navbar li a:hover {
     color: #52d3aa !important;
@@ -247,8 +247,8 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Source Sans Pro", Arial, sans-serif;
   color: rgba(255, 255, 255, 0.5);
   position: relative;
-  font-size: 19px;
-  font-weight: 300;
+  font-size: 2.5vh;
+  font-weight: 400;
 }
 #fh5co-header #navbar li a span {
   position: relative;
@@ -299,7 +299,7 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-header .navbar-brand {
   float: left;
   display: block;
-  font-size: x-large;
+  font-size: 4vh;
   font-weight: 600;
   padding-left: 0;
   color: #fff;
@@ -319,9 +319,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 #fh5co-header.navbar-fixed-top #navbar li a {
   color: rgba(0, 0, 0, 0.5);
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
+  -webkit-transition: 0.1s;
+  -o-transition: 0.1s;
+  transition: 0.1s;
 }
 #fh5co-header.navbar-fixed-top #navbar li a:hover {
   color: #52d3aa;
@@ -380,6 +380,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #fh5co-home .gradient {
   position: absolute;
+  background-attachment: fixed;
   top: 0;
   bottom: -100px;
   left: 0;
@@ -390,15 +391,15 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #52d3aa;
   /* IE9, iOS 3.2+ */
   background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIHN0b3AtY29sb3I9IiMzZjk1ZWEiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwIi8+PHN0b3Agc3RvcC1jb2xvcj0iIzUyZDNhYSIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjEiLz48L2xpbmVhckdyYWRpZW50PjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjdnNnZykiIC8+PC9zdmc+);
-  background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0, #3f95ea), color-stop(1, #52d3aa));
+  background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0, #660000), color-stop(1, #FFCC33));
   /* Android 2.3 */
-  background-image: -webkit-repeating-linear-gradient(top left, #3f95ea 0%, #52d3aa 100%);
+  background-image: -webkit-repeating-linear-gradient(top left, #660000 0%, #FFCC33 100%);
   /* IE10+ */
-  background-image: repeating-linear-gradient(to bottom right, #3f95ea 0%, #52d3aa 100%);
-  background-image: -ms-repeating-linear-gradient(top left, #3f95ea 0%, #52d3aa 100%);
+  background-image: repeating-linear-gradient(to bottom right, #660000 0%, #FFCC33 100%);
+  background-image: -ms-repeating-linear-gradient(top left, #660000 0%, #FFCC33 100%);
 }
 #fh5co-home, #fh5co-home .text-wrap {
-  height: 600px;
+  height: 80vh;
 }
 #fh5co-home .text-wrap {
   display: table;
@@ -424,7 +425,7 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: 1px dashed white;
 }
 #fh5co-home .text-inner h1 {
-  font-size: 50px;
+  font-size: 6vh;
   color: white;
   margin: 0 0 40px 0;
 }
@@ -599,9 +600,9 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
   right: -9px;
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
+  -webkit-transition: 0.1s;
+  -o-transition: 0.1s;
+  transition: 0.1s;
 }
 .watch-video .btn-video:hover i, .watch-video .btn-video:focus i {
   -webkit-transform: scale(1.1);
@@ -1023,9 +1024,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn {
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: 0.1s;
+  -o-transition: 0.1s;
+  transition: 0.1s;
 }
 .btn:hover, .btn:active, .btn:focus {
   outline: none;
@@ -1109,9 +1110,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn {
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
+  -webkit-transition: 0.1s;
+  -o-transition: 0.1s;
+  transition: 0.1s;
 }
 
 .fh5co-nav-toggle {
@@ -1140,7 +1141,7 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   text-indent: -55px;
   background: #52d3aa;
-  transition: all .2s ease-out;
+  transition: all .1s ease-out;
 }
 .fh5co-nav-toggle i::before, .fh5co-nav-toggle i::after {
   content: '';
@@ -1149,9 +1150,9 @@ h1, h2, h3, h4, h5, h6 {
   background: #52d3aa;
   position: absolute;
   left: 0;
-  -webkit-transition: 0.2s;
-  -o-transition: 0.2s;
-  transition: 0.2s;
+  -webkit-transition: 0.1s;
+  -o-transition: 0.1s;
+  transition: 0.1s;
 }
 
 .fh5co-nav-toggle i::before {
@@ -1233,9 +1234,9 @@ h1, h2, h3, h4, h5, h6 {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
-  -webkit-transition: 0.2s;
-  -o-transition: 0.2s;
-  transition: 0.2s;
+  -webkit-transition: 0.1s;
+  -o-transition: 0.1s;
+  transition: 0.1s;
 }
 #footer .gotop:hover, #footer .gotop:focus {
   top: -25px;
@@ -1250,22 +1251,22 @@ h1, h2, h3, h4, h5, h6 {
 .btn {
   text-transform: uppercase;
   letter-spacing: 2px;
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
+  -webkit-transition: 0.1s;
+  -o-transition: 0.1s;
+  transition: 0.1s;
 }
 .btn.btn-primary {
-  background: #52d3aa;
+  background: #660000;
   color: #fff;
   border: none !important;
   border: 2px solid transparent !important;
 }
 .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
   box-shadow: none;
-  background: #52d3aa;
+  background: #660000;
 }
 .btn:hover, .btn:active, .btn:focus {
-  background: #393e46 !important;
+  background: #333333 !important;
   color: #fff;
   outline: none !important;
 }
@@ -1345,10 +1346,10 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0;
   -webkit-backface-visibility: hidden;
   /* ideally, transition speed should match zoom duration */
-  -webkit-transition: all 0.3s ease-out;
-  -moz-transition: all 0.3s ease-out;
-  -o-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.1s ease-out;
+  -moz-transition: all 0.1s ease-out;
+  -o-transition: all 0.1s ease-out;
+  transition: all 0.1s ease-out;
 }
 
 .mfp-with-zoom.mfp-ready .mfp-container {
