@@ -20,7 +20,7 @@ theme = "hugo-elate-theme"
   [params.navigation]
     brand = "German Neuroscience Olympics"
     home = "Home"
-    work = "Work"
+    work = "Concept"
     testimonials = "Testimonials"
     services = "Services"
     about = "About"
@@ -43,39 +43,39 @@ theme = "hugo-elate-theme"
 
   # Hero section
   [params.hero]
-    title = "A Neuroscience Teaching Programm to help you challenge your students in a unique and fun way."
-    subtitle = '<a href="http://register.test/" target="_blank" title="Register">REGISTER NOW</a>'
+    title = "A Neuroscience Teaching Program to help you challenge your students in a unique and fun way."
+    subtitle = '<a href="http://www.google.com" class="btn btn-primary">REGISTER NOW</a>'
 
   # Intro section
   # Available icons: http://simplelineicons.com/
   [params.intro]
 
   [[params.intro.item]]
-    title = "Teachers"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    url = "#"
-    button = "Get In Touch"
+    title = "Easy"
+    description = "Use ready-made, appealing materials."
+    # url = "#"
+    # button = "Get In Touch"
     icon = "icon-bulb"
-    img = "img_7.jpg"
+    # img = "img_7.jpg"
 
   [[params.intro.item]]
-    title = "Students"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    url = "#"
-    button = "Click Me"
+    title = "Impactful"
+    description = "Expose your students to first-hand science."
+    # url = "#"
+    # button = "Click Me"
     icon = "icon-wrench"
-    img = "img_8.jpg"
+    # img = "img_8.jpg"
 
   [[params.intro.item]]
-    title = "Volunteers"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    url = "#"
-    button = "Why us?"
+    title = "Helpful"
+    description = "Enhance your teaching."
+    # url = "#"
+    # button = "Why us?"
     icon = "icon-rocket"
-    img = "img_10.jpg"
+    # img = "img_10.jpg"
 
   [params.intro.video]
-    enable = true
+    enable = false
     title = "Watch the video"
     icon = "icon-play2"
     url = "https://vimeo.com/channels/staffpicks/93951774"
@@ -84,9 +84,9 @@ theme = "hugo-elate-theme"
   # Work section
   [params.work]
     enable = true
-    title = "Work"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
+    title = "Are you struggling to find new and exciting ways to encourage your students to learn about science?"
+    description = "Being a good teacher is hard work. Especially when it comes to including modern fields of science into a full and rigid curriculum. You want to make your classes more engaging and fun but finding the right one proofs difficult and time consuming. The German Neuroscience Olympics offer an easy and fun way for teachers and their students to learn more about the human brain. During a one day event you get hands-on training on how to teach neuroscience, and leave with material and strategies to work with your students."
+    # footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
 
     [[params.work.row]]
       img = "work_1.jpg"
