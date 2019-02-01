@@ -20,10 +20,10 @@ theme = "hugo-elate-theme"
   [params.navigation]
     brand = "DNO e.V."
     home = "Home"
-    work = "Concept"
-    testimonials = "Testimonials"
-    services = "Services"
-    about = "About"
+    # work = "Concept"
+    # testimonials = "Testimonials"
+    # services = "Services"
+    # about = "About"
     contact = "Contact"
 
     # You can add custom links before or after the default links
@@ -34,6 +34,22 @@ theme = "hugo-elate-theme"
     #  url = "http://gohugo.io"
     #  name = "Hugo"
     #  weight = 10
+
+    # midpend links
+    [[menu.midpend]]
+     url = "https://trusting-hypatia-13c97e.netlify.com/"
+     name = "Teachers"
+     weight = 10
+
+     [[menu.midpend]]
+     url = "http://google.com"
+     name = "Students"
+     weight = 20
+
+     [[menu.midpend]]
+     url = "http://pubmed.com"
+     name = "Volunteers"
+     weight = 30
 
     # postpended links
     #[[menu.postpend]]
@@ -153,7 +169,7 @@ theme = "hugo-elate-theme"
 
   # Services section
   [params.services]
-    enable = true
+    enable = false
     title = "Services"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
@@ -178,7 +194,7 @@ theme = "hugo-elate-theme"
 
   # About section
   [params.about]
-    enable = true
+    enable = false
     title = "About"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
@@ -230,7 +246,7 @@ theme = "hugo-elate-theme"
       from = 0
       to = 89
       interval = 50
-      speed = 5000
+      speed = 1000
 
     [[params.counters.item]]
       description = "Lines of code"
@@ -238,7 +254,7 @@ theme = "hugo-elate-theme"
       from = 0
       to = 2343409
       interval = 50
-      speed = 5000
+      speed = 1000
 
     [[params.counters.item]]
       description = "Cups of coffee"
@@ -246,7 +262,7 @@ theme = "hugo-elate-theme"
       from = 0
       to = 1302
       interval = 50
-      speed = 5000
+      speed = 1000
 
     [[params.counters.item]]
       description = "Happy clients"
@@ -254,7 +270,7 @@ theme = "hugo-elate-theme"
       from = 0
       to = 52
       interval = 50
-      speed = 5000
+      speed = 1000
 
   # Contact section
   [params.contact]
