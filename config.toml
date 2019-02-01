@@ -18,7 +18,7 @@ theme = "hugo-elate-theme"
 
   # Navigation
   [params.navigation]
-    brand = "German Neuroscience Olympics"
+    brand = "DNO e.V."
     home = "Home"
     work = "Concept"
     testimonials = "Testimonials"
